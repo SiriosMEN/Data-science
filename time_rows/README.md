@@ -9,3 +9,24 @@
 Проанализировать данные.
 Обучить разные модели с различными гиперпараметрами. Сделать тестовую выборку размером 10% от исходных данных.
 Проверить данные на тестовой выборке и сделать выводы.
+## Анализ
+Выполнен анализ сезонности и трендов в разрезе различных временных промежутков
+## Подход:
+Анализ временных рядов с использованием окна скольжения и отстающего значени.
+## Использованные фреймворки
+* Pandas
+* Numpy
+* matplotlib.pyplot
+* statsmodels.tsa.seasonal.seasonal_decompose
+## Использованные модели
+* CatBoostRegressor,CatBoostClassifier,CatBoost
+* LinearRegression
+* RandomForestRegressor
+* LGBMRegressor
+## Метрики
+RMSE
+Название алгоритма	RMSE
+0	Linear Regression	44.432714
+1	Random Forest Regressor	46.651800
+2	CatBoost	49.096873
+3	Ligth Gradient Boost Machine	50.087091
